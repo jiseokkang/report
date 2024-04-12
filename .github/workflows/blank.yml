@@ -4,13 +4,13 @@ for i in range(10):
     for j in range(5):
         col = random.randint(0, 3)
         if (0 == col):
-            turtle.pencolor("yellow")
+            turtle.pencolor('yellow')
         elif (1 == col):
-            turtle.pencolor("blue")
+            turtle.pencolor('blue')
         elif (2 == col):
-            turtle.pencolor("red")
+            turtle.pencolor('red')
         elif (3 == col):
-            turtle.pencolor("green")
+            turtle.pencolor('green')
         col = random.randint(0, 4)
         if (0 == col):
             turtle.pencolor('red')
