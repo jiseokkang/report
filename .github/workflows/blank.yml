@@ -13,15 +13,15 @@ for i in range(10):
             turtle.pencolor("green")
         col = random.randint(0, 4)
         if (0 == col):
-            turtle.pencolor("red")
+            turtle.pencolor('red')
         elif (1 == col):
-            turtle.pencolor("blue")
+            turtle.pencolor('blue')
         elif (2 == col):
-            turtle.pencolor("greed")
+            turtle.pencolor('greed')
         elif (3 == col):
-            turtle.pencolor("purple")
+            turtle.pencolor('purple')
         elif (4 == col):
-            turtle.pencolor("yellow")
+            turtle.pencolor('yellow')
         sel = random.randint(0, 4)
         if (0 == sel):
             turtle.forward(random.randint(50, 100))
